@@ -1,0 +1,37 @@
+header{
+    nav{
+        background: $gradiente;
+    }
+    
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .buscar:focus{
+    
+        box-shadow:0 0 0 0rem rgba(0, 0, 0, 0) !important;
+        border-color: #BF8A7E !important;
+    
+    }
+    
+    .button_nabvar{
+        background: $gradiente_2;
+        outline: none;
+    }
+    
+    .button_nabvar:hover{
+      background: $gradiente_2;
+      color: #D9B5A0;
+    
+    }
+}
+
+
+
+
+
+
+
+
+

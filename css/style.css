@@ -1,0 +1,108 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; }
+
+header nav {
+  background: background linear-gradient(26.99deg, #BF8A7E -38.03%, rgba(101, 54, 158, 0) 137.84%); }
+
+header .logo {
+  width: 100px;
+  height: 100px; }
+
+header .buscar:focus {
+  box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+  border-color: #BF8A7E !important; }
+
+header .button_nabvar {
+  background: background linear-gradient(180deg, #D9B5A0 -18.18%, rgba(217, 217, 217, 0));
+  outline: none; }
+
+header .button_nabvar:hover {
+  background: background linear-gradient(180deg, #D9B5A0 -18.18%, rgba(217, 217, 217, 0));
+  color: #D9B5A0; }
+
+main {
+  min-height: 100%; }
+  main div .img-carrusel {
+    width: 620px;
+    height: 450px; }
+  main div .contenedor {
+    width: 100%; }
+  main div div .contenedor_imagen {
+    width: 100%;
+    height: 350px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative; }
+  main div div img {
+    width: 100%;
+    height: 100%;
+    transition: all .3s; }
+  main div div .contenedor_imagen:hover img {
+    filter: blur(1.5px);
+    transition: all .3s;
+    transform: scale(1.5);
+    transition: all .3s; }
+  main div div .contenedor_imagen::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all .3s; }
+  main div div .contenedor_imagen:hover::before {
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    transition: all .3s; }
+  main div div .texto {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    z-index: 3; }
+  main div div .titulo, main div div .parrafo {
+    margin-top: 150px;
+    margin: 40px;
+    padding: 5px; }
+  main div div .titulo {
+    position: relative;
+    left: 100%;
+    transition: all .3s; }
+  main div div .contenedor_imagen:hover .titulo {
+    left: 0;
+    animation-delay: .3s;
+    transition: all .3s; }
+  main div div .parrafo {
+    position: relative;
+    right: 100%;
+    transition: all .3s; }
+  main div div .contenedor_imagen:hover .parrafo {
+    right: 0;
+    animation-delay: .3s;
+    transition: all .3s; }
+  main div div .boton {
+    position: relative;
+    right: 100%;
+    transition: all .3s; }
+  main div div .btn_principal {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background: background linear-gradient(180deg, #D9B5A0 -18.18%, rgba(217, 217, 217, 0));
+    color: black;
+    border: none; }
+  main div div .btn_principal:hover {
+    background: background linear-gradient(180deg, #D9B5A0 -18.18%, rgba(217, 217, 217, 0)); }
+  main div div .contenedor_imagen:hover .boton {
+    right: 0;
+    animation-delay: .3s;
+    transition: all .3s; }
+
+footer {
+  margin-top: auto;
+  min-height: 16vh;
+  background: background linear-gradient(26.99deg, #BF8A7E -38.03%, rgba(101, 54, 158, 0) 137.84%); }
+  footer div .redes_sociales img {
+    width: 40px;
+    height: 40px; }
