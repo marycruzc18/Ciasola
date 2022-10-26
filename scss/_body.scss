@@ -2,11 +2,11 @@
 body{
    
     font-family: 'Montserrat', sans-serif;
-    max-width: 100% !important;
-    overflow-x: hidden; 
+
  
 }
 
-html {
-	overflow-x:hidden; 
+body, html {
+    width: 100%;
+    overflow-x: hidden;
 }
